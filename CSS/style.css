@@ -1,0 +1,50 @@
+
+body{
+    margin: 0;
+    
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+section{
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: darkgrey;
+    padding: 30px;
+
+}
+.cab{
+    margin: 30px;
+    display: block;
+}
+.formulario{
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    margin-right: 4px;
+}
+input{
+    margin: 5px;
+}
+button{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background: white;
+}
+button:hover{
+    background: cadetblue;
+    color: white;
+}
